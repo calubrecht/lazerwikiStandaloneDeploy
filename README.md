@@ -13,5 +13,5 @@ Linux:
     - Create /var/log/spring and /opt/lazerwiki/data as root and give write permisissions to lazerwiki user
 
 Windows:
-  run lazerwiki.bat
-  To run as a service....
+  - run lazerwiki.bat
+  - To run as a service....
