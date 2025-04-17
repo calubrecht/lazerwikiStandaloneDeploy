@@ -2,8 +2,9 @@ To package Lazerwiki as a standalone service, checkout and build the ... (run th
 
 copy lazerwiki/build/libs/lazerwiki-X.X.X.X.jar to lazerwiki.jar in root of this repo.
 copy lazerwiki/src/main/sql/lazerwiki/db to root of this repo.
-
 copy lazerwiki-ui/dist/lazerwiki-ui-standalone.jar to lib/ in this repo
+
+if java jre (version 17 or higher) is not on the path, add full path to JRE to appropriate service script
 
 Linux:
   - run lazerwiki.sh
