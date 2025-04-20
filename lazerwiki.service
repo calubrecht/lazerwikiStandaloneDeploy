@@ -1,0 +1,13 @@
+[Unit]
+Description=Lazerwiki Service
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+User=lazerwiki
+WorkingDirectory=/opt/lazerwiki
+ExecStart=/opt/lazerwiki/lazerwiki.sh
+
+[Install]
+WantedBy=multi-user.target
