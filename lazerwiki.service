@@ -8,6 +8,7 @@ Type=simple
 User=lazerwiki
 WorkingDirectory=/opt/lazerwiki
 ExecStart=/opt/lazerwiki/lazerwiki.sh
+Environment=LW_WEBSERVER_PORT=80
 
 [Install]
 WantedBy=multi-user.target
