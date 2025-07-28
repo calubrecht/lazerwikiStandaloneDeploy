@@ -2,3 +2,6 @@ lazerwiki.db
 lazerwiki.jar
 lib/
 logs/
+lazerwiki/
+static/
+lazerwiki.tar.gz

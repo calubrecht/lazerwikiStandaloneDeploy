@@ -1,0 +1,5 @@
+Windows setup scripts
+
+Linux:
+  Problem: Cannot listen on 80 or 443 as non-root process, and java does not give the ability to run as root and then degrade permissions. A reverse proxy would be easiest, and could configure ssl that way, too.
+  Apache? Ngnix? Someone suggested caddyserver.com
